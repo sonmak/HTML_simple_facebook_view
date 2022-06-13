@@ -1,0 +1,8 @@
+.RightBar >:nth-child(2) >*:hover{
+    background-color: #cdd8e2;
+    border-radius: 4px;
+}
+
+.RightBar>:nth-child(4):hover{
+    background: radial-gradient( #9198e5,#646464fa);
+}

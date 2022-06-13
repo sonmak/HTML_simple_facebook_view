@@ -1,0 +1,8 @@
+.LeftBar >:nth-child(1) >*:hover {
+    background-color: #cdd8e2;
+    border-radius: 4px;
+}
+.LeftBar >:nth-child(3) >*:hover {
+    background-color: #cdd8e2;
+    border-radius: 4px;
+}

@@ -1,0 +1,134 @@
+body {
+    margin: 0rem;
+    font-family: tahoma;
+}
+
+.TopBar {
+    position: fixed;
+    background-color: white ;
+    top: 0;
+    left:0;
+    right:0;
+    height: 4.5rem;
+    display:flex; 
+    align-items: center;
+    border-bottom: 2.5px solid rgb(219, 216, 216);
+}
+
+.TopBar >:nth-child(1) {
+    display: flex;
+    margin-left:0.6rem;
+    align-items: center;
+    width: 27vw
+}
+
+.TopBar > :nth-child(2) {
+   display: flex;
+   font-size: 2rem;
+   align-items: center;
+   width: 41vw;
+   justify-content: space-between;
+   padding-left: 1.8rem;
+}
+
+.TopBar > :nth-child(3) {
+    display: flex; 
+    font-size: 1.3rem;
+    align-items: center;
+    width: 34rem;
+    justify-content: flex-end;
+
+ }
+
+ .TopBar > :nth-child(3) > :not(:last-child){
+   margin-right: 1vw;
+   background-color: rgb(231, 229, 229);
+   border-radius: 40px;  
+   padding: 0.6rem;
+   color: rgb(56, 54, 54);
+}
+
+.TopBar > :nth-child(3) > :nth-child(3){
+    background-color: rgb(231, 229, 229);
+    border-radius: 40px;  
+    padding: 0.6rem;
+    color: rgb(56, 54, 54);
+ }
+
+
+.TopBar > :nth-child(2) > * {
+    color: rgb(56, 54, 54);
+}
+
+.fa-facebook {
+    font-size: 2.3rem;
+    color: rgb(47,112,216);
+}
+
+.Search{
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 16vw;
+    height: 2.6rem;
+    padding-left: 0.8rem;
+    border-radius: 20px;
+}
+
+.Search > :nth-child(1) {
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 20px; 
+    flex-direction: row-reverse;
+}
+
+.ikonaS1 {
+    background-color: #f1f1f1; 
+    font-size: 1.2rem;
+    color:rgb(41, 41, 44);
+    margin-top: 0.7rem;
+}
+
+#search{
+    background-color: #f1f1f1;
+    border: 0;
+    outline:none;
+    border-radius: 20px;
+ }
+
+#search,textarea {
+    max-width: 11vw;
+}
+ input[type="text"]
+{
+    font-size:1.2rem;
+}
+
+#topUser {
+    color: rgb(47,112,216);
+    padding: 1.1rem 2.5vw;
+    border-radius: 4px; 
+}
+
+#topHome
+{
+   padding: 1.1rem 3vw;
+   border-radius: 4px;
+}
+
+#topUsers
+{
+   padding: 1.1rem 2.5vw;
+   border-radius: 4px;
+}
+#topTV
+{
+   padding: 1.1rem 2.5vw;
+   border-radius: 4px;
+}
+#topStore
+{
+   padding: 1.1rem 2.5vw;
+   border-radius: 4px;
+}

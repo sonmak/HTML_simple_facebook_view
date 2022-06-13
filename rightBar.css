@@ -1,0 +1,91 @@
+.RightBar {
+    position: fixed;
+    top: 4.5rem;
+    right: 0;
+    width: 25vw;
+    bottom: 0;
+    background-color: #ebf0f5;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.RightBar>:nth-child(1) {
+    position: relative;
+    top: 0%;
+    padding: 16px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(56, 54, 54);
+}
+
+.RightBar>:nth-child(1)>:nth-child(1) {
+    margin-left: 1.2rem;
+    font-size: 1.8rem;
+}
+
+.RightBar>:nth-child(1)>:nth-child(2) {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.RightBar>:nth-child(1)>:nth-child() {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.RightBar>:nth-child(2) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(56, 54, 54);
+}
+
+.RightBar>:nth-child(2)>* {
+    display: flex;
+    font-size: 1.6rem;
+    padding: 5px;
+}
+
+.RightBar>:nth-child(2)>*>* {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.RightBar>:nth-child(2)>*> :nth-child(1) {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+.RightBar>:nth-child(4) {
+    position: fixed;
+    font-size: 1.8rem;
+    background-size: 2.7rem;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100%;
+    display: flex;
+    color: rgb(56, 54, 54);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

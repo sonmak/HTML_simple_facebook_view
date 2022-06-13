@@ -1,0 +1,57 @@
+#topHome:hover {
+    color: rgb(47,112,216);
+    background-color: rgb(245, 243, 243);
+}
+
+#topUsers:hover {
+    color: rgb(47,112,216);
+    background-color: rgb(245, 243, 243);
+}
+
+#topTV:hover {
+    color: rgb(47,112,216);
+    background-color: rgb(245, 243, 243);
+}
+
+#topStore:hover {
+    color: rgb(47,112,216);
+    background-color: rgb(245, 243, 243);
+}
+
+#topUser:hover {
+    background-color: rgb(245, 243, 243);
+}
+
+/*.Search> :nth-child(1) > :nth-child(2) {
+    display: none;
+}*/
+
+.BrakWyszukiwan {
+    position: fixed;
+    background-color: white;
+    top: -50rem;
+    left:0;
+    width: 26rem;
+    height: 9rem;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    box-shadow: 2px 5px 9px rgba(144, 142, 142, 0.5);
+}
+
+.BrakWyszukiwan> :nth-child(1) {
+    margin-top: 5rem;
+}
+
+#search:focus ~ .BrakWyszukiwan{
+    top: 0;  
+    transition: top 0.8s ease-out; 
+}
+
+#search:focus ~  .ikonaS1{
+    display: none;
+    
+}
+
+
